@@ -1,10 +1,10 @@
 module.exports = {
-  factorial1: function(n) {
+  factorial1: function fact(n) {
   	if(n==0){
   		return 1;
   	}
   	else {
-  		return n*factorial1(n-1);
+  		return n*fact(n-1);
   	}
   }
 };
